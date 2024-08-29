@@ -1,6 +1,6 @@
 {
   "name": "lava-business-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
@@ -13,9 +13,16 @@
     "lava-sdk",
     "lava-ru"
   ],
-  "author": "An1by",
-  "license": "ISC",
   "description": "Typescript SDK for Lava.ru business API",
+  "homepage": "https://github.com/an1by/lava-business-sdk",
+  "bugs": "https://github.com/an1by/lava-business-sdk/issues",
+  "author": "An1by (https://github.com/an1by/)",
+  "license": "MIT",
+  "funding": {
+    "type": "boosty",
+    "url": "https://boosty.to/aniby/donate"
+  },
+  "repository": "github:an1by/lava-business-sdk",
   "devDependencies": {
     "@eslint/js": "^9.9.1",
     "@types/express": "^4.17.21",
