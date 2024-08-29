@@ -1,1 +1,1 @@
-export type LavaResponse = object;
+export type LavaResponse = object | object[];

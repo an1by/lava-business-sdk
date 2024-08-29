@@ -1,6 +1,5 @@
-import { LavaResponse } from '#/type/LavaResponse';
-import { Tariff } from '../Tariff';
+import { LavaBody } from '#/type/LavaBody';
 
-export type PayoffGetTariffs = LavaResponse & {
-  tariffs: Tariff[]
-};
+export type PayoffGetTariffs = LavaBody & {
+  shopId: string,
+}

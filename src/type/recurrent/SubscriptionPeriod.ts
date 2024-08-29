@@ -1,0 +1,1 @@
+export type SubscriptionPeriod = 'one_month' | 'three_months' | 'six_months' | 'year';

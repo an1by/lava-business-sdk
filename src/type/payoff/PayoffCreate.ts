@@ -1,8 +1,11 @@
-import { PayoffStatus } from './PayoffStatus';
-import { LavaResponse } from '#/type/LavaResponse';
+import { SubtractMethod } from '#/constant/SubtractMethod';
 
-
-export type PayoffCreate = LavaResponse & {
-  payoff_id: string,
-  payoff_status: PayoffStatus
+export type PayoffCreate = {
+  amount: number,
+  orderId: string,
+  shopId: string,
+  hookUrl?: string | null,
+  service: string,
+  walletTo?: string,
+  subtract?: SubtractMethod
 }

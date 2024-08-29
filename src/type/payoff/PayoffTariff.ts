@@ -1,4 +1,4 @@
-export type Tariff = {
+export type PayoffTariff = {
   'percent': number,
   'min_sum': number,
   'max_sum': number,
