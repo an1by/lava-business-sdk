@@ -1,6 +1,6 @@
 {
   "name": "lava-business-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
@@ -14,7 +14,7 @@
     "lava-ru"
   ],
   "description": "Typescript SDK for Lava.ru business API",
-  "homepage": "https://github.com/an1by/lava-business-sdk",
+  "homepage": "https://dev.lava.ru/",
   "bugs": "https://github.com/an1by/lava-business-sdk/issues",
   "author": "An1by (https://github.com/an1by/)",
   "license": "MIT",
