@@ -4,7 +4,9 @@
       "tsconfig-paths/register"
     ]
   },
-  "include": ["./src"],
+  "include": [
+    "./src"
+  ],
   "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
@@ -26,6 +28,9 @@
     "paths": {
       "#/*": [
         "common/*"
+      ],
+      "!/*": [
+        "type/*"
       ]
     }
   }

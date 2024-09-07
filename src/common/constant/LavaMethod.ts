@@ -12,5 +12,8 @@ export enum LavaMethod {
 
   RECURRENT_PRODUCT_LIST = '/recurrent/product/list',
   RECURRENT_CONSUMER_CREATE = '/recurrent/consumer/create',
-  RECURRENT_SUBSCRIPTION_SUBSCRIBE = '/recurrent/subscription/subscribe'
+  RECURRENT_SUBSCRIPTION_SUBSCRIBE = '/recurrent/subscription/subscribe',
+  RECURRENT_SUBSCRIPTION_STATUS = '/recurrent/subscription/status',
+  RECURRENT_SUBSCRIPTION_OFFSET_NEXT_PAY_TIME = '/recurrent/subscription/offset-next-pay-time',
+  RECURRENT_SUBSCRIPTION_UNSUBSCRIBE = '/recurrent/subscription/unsubscribe',
 }
