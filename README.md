@@ -2,8 +2,12 @@
 Don't use PHP, use Node.js.
 ## Installation
 > npm i lava-business-sdk
+## Usage
+Use only **[LavaBusinessClient](./src/client/LavaBusinessClient.ts)** for your operations.\
+There are also separated features from lava business client - **webhooks**, which you can catch yourself via express or something else.
+
 ---
-## Documentation for [LavaBusinessClient](./src/client/LavaBusinessClient.ts)
+## Documentation for client
 > There are will be only links on [Lava Business API](https://dev.lava.ru/)
 ### Payoffs:
 * [createPayoff](https://dev.lava.ru/business-payoff-create)
